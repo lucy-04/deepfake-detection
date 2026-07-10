@@ -1,0 +1,10 @@
+# runtime (API + inference)
+torch
+torchvision
+pillow
+fastapi
+uvicorn
+python-multipart
+
+# training/evaluation only (used by train.py to download the Kaggle dataset)
+kagglehub

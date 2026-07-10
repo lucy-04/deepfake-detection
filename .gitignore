@@ -1,0 +1,21 @@
+# --- python (backend) ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- training data (downloaded, too large to commit) ---
+deepfakedetectionbackend/dataset/
+
+# --- node / next (frontend) ---
+node_modules/
+.next/
+out/
+
+# --- env files ---
+.env
+.env.local
+.env*.local
+
+# --- os ---
+.DS_Store

@@ -1,0 +1,13 @@
+{
+  "test_images": 4000,
+  "accuracy": 97.9,
+  "precision": 98.5,
+  "recall": 97.2,
+  "f1": 97.8,
+  "confusion_matrix": {
+    "true_fake_pred_fake": 1926,
+    "true_fake_pred_real": 55,
+    "true_real_pred_fake": 30,
+    "true_real_pred_real": 1989
+  }
+}
