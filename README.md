@@ -43,13 +43,9 @@ So I fine-tuned an image classifier to tell real photos apart from AI-generated 
 
 ## Demo & screenshots
 
-> _Screenshots coming soon — run it locally (see [Setup & run](#setup--run-from-a-clean-clone)) to see the full flow._
-
 | Landing page | Upload flow | Result card |
 |--------------|-------------|-------------|
-| _(public/LandingPage.png)_ | _(public/UploadFlow.png)_ | _(public/ResultCard.png)_ |
-
-<!-- To add: drop images in a docs/ folder and reference them here, e.g. ![Landing](docs/landing.png) -->
+| ![Landing page](public/LandingPage.png) | ![Upload flow](public/UploadFlow.png) | ![Result card](public/ResultCard.png) |
 
 ---
 
