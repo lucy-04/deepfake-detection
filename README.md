@@ -8,18 +8,28 @@
 
 ## Table of contents
 
-- [The problem](#the-problem)
-- [Demo & screenshots](#demo--screenshots)
-- [Key features](#key-features)
-- [Results](#results)
-- [How it works](#how-it-works)
-- [Model & training](#model--training)
-- [API reference](#api-reference)
-- [Project structure](#project-structure)
-- [Setup & run](#setup--run-from-a-clean-clone)
-- [Design & engineering decisions](#design--engineering-decisions)
-- [Known limitations / what I'd add next](#known-limitations--what-id-add-next)
-- [Author](#author)
+- [DeepShield — AI Deepfake Image Detection](#deepshield--ai-deepfake-image-detection)
+  - [Table of contents](#table-of-contents)
+  - [The problem](#the-problem)
+  - [Demo \& screenshots](#demo--screenshots)
+  - [Key features](#key-features)
+  - [Results](#results)
+  - [How it works](#how-it-works)
+  - [Model \& training](#model--training)
+  - [API reference](#api-reference)
+    - [`POST /analyze`](#post-analyze)
+    - [`GET /metrics`](#get-metrics)
+    - [`GET /health`](#get-health)
+  - [Project structure](#project-structure)
+  - [Setup \& run (from a clean clone)](#setup--run-from-a-clean-clone)
+    - [Prerequisites](#prerequisites)
+    - [1. Backend](#1-backend)
+    - [2. Frontend](#2-frontend)
+    - [Environment variables](#environment-variables)
+    - [(Optional) retrain the model](#optional-retrain-the-model)
+  - [Design \& engineering decisions](#design--engineering-decisions)
+  - [Known limitations / what I'd add next](#known-limitations--what-id-add-next)
+  - [Author](#author)
 
 ---
 
@@ -37,7 +47,7 @@ So I fine-tuned an image classifier to tell real photos apart from AI-generated 
 
 | Landing page | Upload flow | Result card |
 |--------------|-------------|-------------|
-| _(screenshot)_ | _(screenshot)_ | _(screenshot)_ |
+| _(public/LandingPage.png)_ | _(public/UploadFlow.png)_ | _(public/ResultCard.png)_ |
 
 <!-- To add: drop images in a docs/ folder and reference them here, e.g. ![Landing](docs/landing.png) -->
 
